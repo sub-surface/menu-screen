@@ -1,0 +1,20 @@
+{
+  "name": "menu-screen",
+  "version": "0.1.0",
+  "description": "PS2-era game menu experience and interactive music showcase for m0rvidd / Sub-Surface.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && wrangler deploy"
+  },
+  "dependencies": {
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0",
+    "wrangler": "^4.100.0"
+  }
+}
